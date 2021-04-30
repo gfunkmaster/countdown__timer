@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+main{
+    margin-top: 1rem;
+}
+.container{
+    max-width: 768px;
+    margin: 0 auto;
+}
+.timer{
+    background:black;
+    border-radius: .2rem;
+    padding: 2rem;
+    height: 500px;
+    color: #fff;
+}
+.timer__header{
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+
+}
+.timer__body{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: space-around;
+}
+.timer__day,
+.timer__hour,
+.timer__min,
+.timer__sec{
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    border: 2px dashed white;
+    padding: 2rem;
+}
+.timer__label{
+    text-align: center;
+    color: white;
+    margin-top: .5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
